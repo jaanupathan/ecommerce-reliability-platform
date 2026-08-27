@@ -1,0 +1,54 @@
+# Maven
+
+target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse / Spring Tool Suite
+
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+
+.idea/
+*.iml
+
+# VS Code
+
+.vscode/
+
+# Java
+
+*.class
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+
+.env
+.env.*
+!.env.example
+
+# Local configuration containing secrets
+
+application-local.properties
+application-secret.properties
+
+# Temporary files
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
